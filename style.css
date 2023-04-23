@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(70, 126, 230, 0.514);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.left {
+  display: flex;
+}
+
+.right {
+  display: flex;
+}
+
+.btn-opt {
+  padding: 10px 23px;
+  margin: 3px 5px;
+  border-radius: 20px;
+  background-color: rgba(4, 0, 255, 0.836);
+}
